@@ -1,0 +1,16 @@
+2023-04-08 13:50:59 [    INFO] Starting test_authorization_with_valid_and_invalid_credentials with login: qa.ajax.app.automation@gmail.com, password: qa_automation_password, expected result: True
+2023-04-08 13:51:16 [    INFO] Authorization passed
+2023-04-08 13:51:16 [    INFO] Starting test_authorization_with_valid_and_invalid_credentials with login: wrong@gmail.com, password: wrong_password, expected result: False
+2023-04-08 13:51:24 [    INFO] Authorization failed with login: wrong@gmail.com, password: wrong_password
+2023-04-08 13:51:24 [    INFO] Starting test_authorization_with_valid_and_invalid_credentials with login: qa.ajax.app.automation@gmail.com, password: wrong_password, expected result: False
+2023-04-08 13:51:29 [    INFO] Authorization failed with login: qa.ajax.app.automation@gmail.com, password: wrong_password
+2023-04-08 13:51:30 [    INFO] Starting test_authorization_with_valid_and_invalid_credentials with login: wrong@email.com, password: qa_automation_password, expected result: False
+2023-04-08 13:51:34 [    INFO] Authorization failed with login: wrong@email.com, password: qa_automation_password
+2023-04-08 13:51:34 [    INFO] Starting test_authorization_with_valid_and_invalid_credentials with login: , password: , expected result: False
+2023-04-08 13:51:39 [    INFO] Authorization failed with login: , password: 
+2023-04-08 13:51:39 [    INFO] Starting test_authorization_with_valid_and_invalid_credentials with login: qa.ajax.app.automation@gmail.com, password: , expected result: False
+2023-04-08 13:51:41 [    INFO] Authorization failed with login: qa.ajax.app.automation@gmail.com, password: 
+2023-04-08 13:51:41 [    INFO] Starting test_authorization_with_valid_and_invalid_credentials with login: , password: qa_automation_password, expected result: False
+2023-04-08 13:51:45 [    INFO] Authorization failed with login: , password: qa_automation_password
+2023-04-08 13:51:49 [    INFO] Starting test_sidebar with login: qa.ajax.app.automation@gmail.com, password: qa_automation_password
+2023-04-08 13:52:07 [    INFO] Test passed
